@@ -1,1 +1,1 @@
-web: gunicorn myadio.myaudio.wsgi
+web: gunicorn myaudio.myaudio.wsgi
