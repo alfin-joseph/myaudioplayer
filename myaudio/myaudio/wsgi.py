@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'DEFAULT_SETTINGS_MODULE')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myaudios.myaudios.settings')
 
 application = get_wsgi_application()
