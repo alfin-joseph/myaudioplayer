@@ -55,7 +55,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
-ROOT_URLCONF = 'myaudio.urls'
+ROOT_URLCONF = 'myaudio.myaudio.urls'
 
 TEMPLATES = [
     {
